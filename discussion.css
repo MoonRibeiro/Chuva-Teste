@@ -1,0 +1,456 @@
+.discussion{
+    flex-grow: 1;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+    width: 1058px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.discussion-top{
+    box-sizing: border-box;
+
+    width: 1058px;
+    height: 45px;
+    left: 249px;
+    top: 830px;
+
+    
+
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px
+}
+
+.discussion-title{
+    padding: 10px 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+
+    color: #4E4E4E;
+}
+
+.discussion-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discussion-text{
+    padding-top: 15px;
+    padding-bottom: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+
+    color: #ED7839;
+}
+
+.discussion-text-2{
+    margin-top: 35.06px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #595959;
+}
+
+.icon-1{
+}
+
+.icon-2{
+    margin-left: 51.74px;
+}
+
+.icon-3{
+    margin-left: 50px;
+}
+
+.ver-mais-texto{
+    position: static;
+    width: 1028px;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    color: #5C5C5C;
+}
+.ver-mais-but{
+    color: #ED7839;
+}
+
+.topic{
+    margin-top: 37px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 18px 24px;
+}
+
+.options{
+    margin-bottom: 7px;
+    margin-top: 11px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+}
+
+.more-info-icon{
+    margin-left: 3px;
+}
+
+.like-icon{
+    margin-left: 15px;
+}
+
+.like-text{
+    margin-left: 20px;
+}
+
+.comment-text{
+    margin-left: 22px;
+}
+
+.topic-title{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #ED7839;
+}
+
+.topic-name{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #5C5C5C;
+
+    margin-top: 3px;
+}
+
+.topic-text{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #4D4D4D;
+
+    margin-top: 10px;
+}
+
+.feedback-text{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #5C5C5C;
+    margin-top: 15px;
+}
+
+.optext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 17.53px;
+    color: #ED7839;
+}
+
+.feedback-subject{
+    margin-top: 22px;
+}
+
+.feedback-content{
+    margin-top: 10px;
+}
+
+.subject-box{
+    box-sizing: border-box;
+    margin-left: 17.53px;
+    margin-top: 1px;
+    margin-right: 14.95px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 8px 10px;
+        
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+.content-box{
+    box-sizing: border-box;
+    margin-left: 17.53px;
+    margin-right: 14.95px;
+    margin-top: 1px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 80px 80px;
+}
+
+.content-bottom{
+    box-sizing: border-box;
+    margin-left: 17.53px;
+    margin-right: 14.95px;
+    margin-bottom: ;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 0px 4px 4px;
+    height: 30px;
+}
+
+.bold-icon{
+    margin-left: 31.30px;
+    margin-right: 14.95px;
+}
+
+.italic-icon{
+    margin-left: 75.30px;
+    margin-right: 10.95px;
+
+}
+
+#line-2 {
+    float: left;
+    width: 1027px;
+    height: 10px;
+    margin-top: -0.2px;
+}
+
+.send-btn{
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    margin-left: 684px;
+    padding-left: 175px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.send-btn-text{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 4px;
+
+    color: #FFFFFF;
+}
+
+.sent-text-1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 15px;
+    color: #ED7839;
+}
+
+.sent-text-2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 18px;
+
+    text-align: center;
+
+    color: #595959;
+}
+
+.sent-text-3{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137.5%;
+    margin-top: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #F48F44;
+}
+
+.new-topic-btn{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    margin-left: 427px;
+    margin-right: 407px;
+    padding-left: 77px;
+    margin-top: 47px;
+    padding-top: 33px;
+}
+
+.new-topic-btn-text{
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 427px;
+    margin-right: 407px;
+    margin-top: -26px;
+
+    color: #FFFFFF;
+}
+
+#line-3 {
+    float: left;
+    width: 1027px;
+    height: 10px;
+    margin-top: -23.2px;
+    
+}
+
+.topic-blur{
+    margin-top: 37px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    background: #DDDDDD;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    padding: 18px 24px;
+    border: 1px solid rgba(231, 231, 231, 1);
+    filter: blur(0.2rem);
+}
+
+.check{
+    position: absolute;
+    z-index: 1;
+    margin-top: -99px;
+    margin-left: 522px;
+    margin-right: 15px; 
+}
+
+.waiting-text{
+    position: absolute;
+    z-index: 1;
+    margin-top: -68px;
+    margin-left: 383px;
+    margin-right: 15px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    color: #707070;
+}
+
+.edit-text{
+    position: absolute;
+    z-index: 1;
+    margin-top: -42px;
+    margin-left: 484px;
+    margin-right: 15px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+
+    color: #ED7839;
+}
+
+.answer{
+    margin-top: 37px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+
+.answer-author{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+    flex: 85%;
+}
+
+.answer-text{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: -1px;
+    margin-top: 10px;
+    color: #4D4D4D;
+}
+
+.type-text{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+    flex: 10%
+}
+
+.type-icon{
+    flex: 5%
+}
